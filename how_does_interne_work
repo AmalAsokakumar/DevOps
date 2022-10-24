@@ -1,0 +1,51 @@
+computer in a local environment. (lan)
+ 
+switch >> cable. 
+access point  >> wireless technology.
+rotuter >> is needed to connect to the internet.
+
+
+
+
+lan 
+
+if we want the computers in the same environment to communicate , we can use a switch devie.
+the cable that we use to connect the computers to one another in a switch is called a CAT-5 or CAT-6 cable.  they are usually made up of copper. CAT > categoty
+(firber optics can also be used to connect one computer to the another)
+we always use cable to connect with switch. A switch cannot use wireless technology.
+ACCESS POINT < you should use an access point if you want the device in the same environment to be connected to each other over wireless technology.
+
+now a computer network is created where on system can communicate with another.  A local area network(LAN) is a computer network that connects computers within a restricted area such
+as residence, school, laboratory, university, campus, or office building. 
+
+the data which a compute sents to anothe can be called fram/packet, which will be sent to the switch then the switch analysis the packet and the forward the packet to the right destination.
+a switch wich have many ports using this they we can connect many computers.
+
+there is definitely no need for a router for device in the same LAN to communicate. Eiher a switch or an access point is sufficent for this purpose.
+
+
+
+
+
+Router
+
+a router device is need for computer/device to get connected to the internet. the main task of a router is to enable computer to connect to the internet. for that we need an ISP
+(internet service provider). its a device that we use to communicatte with a computer in a different lan. connecting to internet can stand for connecting to the another computer in a anywhere in the world. 
+
+the device that delivers the packet from the lan to the internet is the router. 
+
+if a computer can send packet to the internet, this means that this computer can connect to the internet without any problem.
+routers on the internet are distributed pretty widely.
+
+
+
+
+Home Router.
+a home-route is a combo device that is a mixture of router and switch. most home-router nowadays also have an access point feature. in this way, you can use wirelsess technology as well
+if you want. 
+
+
+
+Internet
+
+the structure that connects all lans in the world is the internet.

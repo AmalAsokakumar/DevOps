@@ -1,0 +1,110 @@
+computer networking tutorial. 
+
+introduction to network devices. 
+- layer 1 devices 
+- layer 2 devices 
+- layer 3 devices
+
+osi model -  (open system interconnect) reference layer
+
+it was developed to as a way to help disparate computing systems communicate with each other.
+
+- layer 7 Application
+- layer 6 Presentation
+- layer 5 Session 
+- layer 4 Transport 
+- layer 3 Network 
+- layer 2 Data link 
+- layer 1 Pohysical
+
+most device do function at more than one layer of the OSI model.  when it comes time to determine the highest level at which they operate. To do that, you must know what 
+they do and how that relates to the osi model.
+
+
+
+* layer 1 Devices
+
+
+Analog Modem. 
+- the word modem is actuall derived from a contraction of modulator/demodulator.
+- they are designed to take a digital signal comming form an a digital node and convert it to analog signals to be placed on the wire .(modulating the signal)
+- it would accept an analog signal from the wire and convert it (demodulate the signal) to a digital that the node could understand. 
+
+-they where developed to create a connection between network segments via the public swithed telephone network(PSTN) using the plain old telephone system (POST). 
+-Modems provide for a single connection to a network. They are only concerned about the wire and the wire resides on the physical layer 1 on the OSI model.  
+
+HUB. 
+- it functions as a concentrator/repeator in that it doesn't care where the signals comes from or where it is going. 
+- it takes the electrical signal that arrives on a port and replicates that signal out all of the other ports.
+- A hub may have few ports. or it may have many ports. 
+- for a varity of reasons, the hub is not very common in modern network. 
+- i is part of level 1 devices.
+
+
+
+* layer 2 Device 
+
+Switch 
+- a switch utilize an application-specific integration circuit(ASIC) chips.
+- The ASCI chip has a specific program that allow the switch to learn when a device is on the network and which port it is connected to via that device's layer 2 MAC address. 
+- a switch may have few ports or it may have many ports. 
+- a switch can be very simple, or it can be highly complex and programmable.
+- a switch will only communicate with the local network devices. 
+
+Wireless access point(WAP)
+- a WAP is a specific type of network bridge that connects(bridges) wireless network segments with wired network segments.
+- the most common type of WAP bridge 802.11 wireless network segment with 802.3 ethernet network segment. 
+- a WAP will only communicates with local network devices. 
+
+
+
+* layer 3 Devic 
+
+Multilayer Switch. 
+- an multelayer switch provides normal layer 2 network switching service, but it will also provides layer 3 or higher OSI model service.
+- the most common multilayer switch is a layer 3 switch.
+- in here that ASIC chip is programmed for not only switching but also to hande routing function. this allows the device to communicate an pass data to a non-local network device.
+- An Multilayer Switch(MLS) is a highly programmable and complex network device.
+- it may have few ports or many ports. 
+
+Router.
+- a router is the most common netwok device for connectig different networks together utilizing the OSI model's Layer3 logical network information. 
+- the router uses software programming for decision making as compared to the switch's use of an ASCI chip.
+- the router uses this programming to keep track of different networks and what it considers to be the best possible route to reach those network.
+- a router can communicate with both local and non-local network devices. 
+
+
+
+
+* introduction to network devices 
+
+Security Devices. 
+- firewall can be placed on routers or hosts(software based) or can be its own device.
+- it functions at multiple layers of OSI model( layer 2, 3, 4, and 7)
+- it blocks the packets from entering or leaving the network. 
+	- Via Stateless Inspection: the firewall will examine every packet against a set of rules. once the packet matches a rule the rule is enforced and the specified action is taken. 
+	- Via Statefull Inspection: the firewall will only examine the state of the connection between networks. Specifically, when a connection is made from an intrnal network to an
+                external network, the firewall will not examine any packets returns from the external connection. As a general rule external connections are not allowed to be initated 
+                with the internal network. 
+- it is the first line of defense in protecting the internal network from outside threads. 
+- consider it the police force of the network. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
